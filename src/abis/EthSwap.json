@@ -4092,6 +4092,67 @@
     "version": "0.5.0+commit.1d4f565a.Emscripten.clang"
   },
   "networks": {
+    "3": {
+      "events": {
+        "0x6faf93231a456e552dbc9961f58d9713ee4f2e69d15f1975b050ef0911053a7b": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "rate",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensPurchased",
+          "type": "event"
+        },
+        "0xd17229f2912b0c21b540782b63f3939c1e458de19d8b929c819985eedbb1e8d1": {
+          "anonymous": false,
+          "inputs": [
+            {
+              "indexed": false,
+              "name": "account",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "token",
+              "type": "address"
+            },
+            {
+              "indexed": false,
+              "name": "amount",
+              "type": "uint256"
+            },
+            {
+              "indexed": false,
+              "name": "rate",
+              "type": "uint256"
+            }
+          ],
+          "name": "TokensSoled",
+          "type": "event"
+        }
+      },
+      "links": {},
+      "address": "0xC8414c7Ed90678b7862FfD18E3186b249791C7D8",
+      "transactionHash": "0x23b3ef33e538ac3095a813807a8bb78653190b0401005a8fc8d2dc3a64c42657"
+    },
     "5777": {
       "events": {
         "0x6faf93231a456e552dbc9961f58d9713ee4f2e69d15f1975b050ef0911053a7b": {
@@ -4150,12 +4211,12 @@
         }
       },
       "links": {},
-      "address": "0xB2F9774Fc4AE8068609Bd07b712Cc15Fc21052E9",
-      "transactionHash": "0x11476a67c8fb42e56034167f6bc383bf0debddd4fd8cc24dd873637d11232ab7"
+      "address": "0x85aCFD2eabF0F82211dFCdefA727Adeeb20c420e",
+      "transactionHash": "0x0e1773a8d25c5ccd954941be1b6ea1b4d7647277ed19f9a13a96221e356b48d1"
     }
   },
   "schemaVersion": "3.0.23",
-  "updatedAt": "2021-11-14T13:36:08.050Z",
+  "updatedAt": "2021-11-16T14:15:42.795Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}
